@@ -1,0 +1,66 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "name",
+        "job",
+        "id",
+        "skills"
+    ],
+    "properties": {
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "Priya"
+            ]
+        },
+        "job": {
+            "type": "string",
+            "default": "",
+            "title": "The job Schema",
+            "examples": [
+                "QA"
+            ]
+        },
+        "id": {
+            "type": "string",
+            "default": "",
+            "title": "The id Schema",
+            "examples": [
+                "55"
+            ]
+        },
+        "skills": {
+            "type": "array",
+            "default": [],
+            "title": "The skills Schema",
+            "items": {
+                "type": "string",
+                "title": "A Schema",
+                "examples": [
+                    "Manual testing",
+                    "Automation testing"
+                ]
+            },
+            "examples": [
+                ["Manual testing",
+                    "Automation testing"
+                ]
+            ]
+        }
+    },
+    "examples": [{
+        "name": "Priya",
+        "job": "QA",
+        "id": "55",
+        "skills": [
+            "Manual testing",
+            "Automation testing"
+        ]
+    }]
+}

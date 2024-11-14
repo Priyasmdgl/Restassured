@@ -1,0 +1,25 @@
+{
+  "category" : "Movies and TVseries",
+  "acceptedFranchises" : [ "Lyka", "Maran" ],
+  "genres" : [ "Action", "Heroism", "Fun" ],
+  "movies" : [ {
+    "title" : "Padayappa",
+    "year" : 1990,
+    "cast" : [ "Rajini", "Soundharya" ]
+  }, {
+    "title" : "Jayam",
+    "year" : 1999,
+    "cast" : [ "Jayam Ravi", "Sadha" ]
+  } ],
+  "tVseries" : [ {
+    "title" : "Company",
+    "year" : 2024
+  }, {
+    "title" : "Saregamapa",
+    "year" : 2023
+  } ],
+  "details" : {
+    "country" : "India",
+    "language" : "Tamil"
+  }
+}

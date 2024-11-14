@@ -1,0 +1,22 @@
+{
+  "id" : 1,
+  "type" : "donut",
+  "name" : "Cake",
+  "ppu" : 0.55,
+  "batters" : {
+    "batter" : [ {
+      "id" : 1001,
+      "type" : "Regular"
+    }, {
+      "id" : 1002,
+      "type" : "Chocolate"
+    } ]
+  },
+  "toppings" : [ {
+    "id" : 5001,
+    "type" : "Sugar"
+  }, {
+    "id" : 5002,
+    "type" : "Maple"
+  } ]
+}
